@@ -6,7 +6,7 @@ import { CgProfile } from "react-icons/cg";
 function SubNavbar() {
   return (
      <>
-        <div className='bg-[#F5A302] flex justify-between items-center px-2 py-3 text-white fixed top-[72px] w-full  mx-auto  '>
+        <div className='bg-[#F5A302] flex justify-between items-center px-2 py-3 text-white fixed top-[72px] w-full z-50 mx-auto  '>
 
                
             <div className='flex items-center justify-between relative w-full mx-auto'>

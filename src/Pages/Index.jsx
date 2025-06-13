@@ -1,11 +1,14 @@
 import React from 'react'
 import bgOne from '../assets/Others/bg1.png'
+import WesternTeam from '../Components/WesternTeam' 
+import NorthernTeam from '../Components/NorthernTeam'
+
 
 function Home() {
   return (
     <>
 
-    <div>
+    <div className='bg-[#222325] text-white min-h-screen'>
 
         <div className='relative w-full h-[400px] overflow-hidden flex items-center justify-center text-white'> 
            
@@ -35,6 +38,23 @@ function Home() {
                
             </div>
         </div>
+
+
+
+        <div>
+            <div className=' bg-[#222325] flex justify-center items-center'>        
+                 <WesternTeam/>
+            </div>
+
+            <div className=' bg-[#222325] flex justify-center items-center'>        
+                 <NorthernTeam/>
+            </div>
+
+
+
+
+        </div>
+        
 
         
         
